@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.main{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.card-1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:10px ;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 355px;
+    border: solid 5px black;
+}
+.sire{
+    width: 341px;
+}
+.name{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.dob{
+    margin-left: 10px;
+    margin-top: 8px;
+    font-family: "Times New Roman", Times, serif;
+}
+.dec{
+    margin-top: 14px;
+    margin-left: 10px;
+}
+.card-2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:10px ;
+    margin-bottom: 50px;
+    width: 349px;
+    height: 410px;
+    border: solid 5px black;
+}
+.hodor{
+    width: 340px;
+}
+.hodor-dec{
+    margin-top: 12px;
+    text-align: center;
+}
+.para{
+    margin-left: 10px;
+    font-weight: lighter;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgb(39, 25, 25);
+    padding: 10px;
+    color: azure;
+}
+.btn:hover{
+    background-color: wheat;
+    color: brown;
+}
